@@ -7,8 +7,10 @@ import LifeStatus from "../../Components/Common/LifeStatus";
 
 export default function Start(){
 
+    const navigation = useNavigation();
+
     const handleNavAppExplanation = () => {
-        console.log("Testando o clique.");
+        navigation.navigate("AppExplanation");
     };
 
     return(
